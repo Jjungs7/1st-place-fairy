@@ -1,0 +1,35 @@
+{
+  "[python]": {
+      "editor.formatOnType": true,
+      "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  "git.autofetch": true,
+  "editor.defaultFormatter": "ms-python.black-formatter",
+  "python.analysis.inlayHints.functionReturnTypes": true,
+  "python.analysis.typeCheckingMode": "basic",
+  "pylint.args": [
+      "--disable=C0114,C0115,C0116",
+      "--max-line-length=120"
+  ],
+  "black-formatter.args": [
+      "--line-length=120"
+  ],
+  "[json]": {
+      "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[jsonc]": {
+      "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[yaml]": {
+      "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "cSpell.userWords": [
+      "dotenv"
+],
+"cSpell.words": [
+    "pydantic"
+],
+"[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+}
+}
